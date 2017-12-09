@@ -14,7 +14,7 @@ mark_as_advanced(VERSION_MAJOR VERSION_MINOR VERSION_PATCH COSE_VERSION)
 project ("cose-c" VERSION "${COSE_VERSION}")
 
 find_package(Doxygen)
-find_package(OpenSSL 1.0 REQUIRED)
+find_package(OpenSSL 1.1 REQUIRED)
 
 ### setup options
 option (use_context	"Use context pointer for COSE functions" ON)
