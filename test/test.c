@@ -938,6 +938,7 @@ int main(int argc, char ** argv)
 #endif
 		MacMessage();
 		SignMessage();
+		SignXPIMessage();
 		EncryptMessage();
 #ifdef USE_CBOR_CONTEXT
 		FreeContext(allocator);
